@@ -1,0 +1,55 @@
+/* AboutPage.css */
+.about-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-header {
+    background: url('https://github.com/stephenmiracle4/edu-african/blob/main/public/Images/about/bg-1.png') center/cover no-repeat;
+    position: relative;
+    color: #ffa500;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  /* .about-header .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px 20px;
+  } */
+  
+  .about-header h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+  }
+  
+  .about-content {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about-content h2 {
+    color: #ffa500;
+    margin-bottom: 10px;
+  }
+  
+  .about-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content-section img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
