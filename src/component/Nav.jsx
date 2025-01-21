@@ -30,7 +30,14 @@ const Nav = () => {
                     </a>
                 })}
                 </div>
-                <a href="#" className='text-center m-auto border-solid border-2 border-black-500 bg-yellow-500 font-bold px-6 py-4 text-3 w-fit hover:bg-blue-500' >Apply</a>    
+
+                 {/* logo2 */}
+                <div> <img src="Images/all-icon/support.png" alt="" />
+                <p>need help? call free</p>
+                <h2>321 325 567</h2>
+                </div>
+
+                <a href="#" className='text-center m-auto border-solid border-2 border-black-500 bg-yellow-500 font-bold px-6 py-4 text-3 w-fit hover:bg-blue-950 hover:text-yellow-500' >Apply</a>    
                 </div>
             </div>
         </nav>
