@@ -15,10 +15,10 @@ const AboutPage = () => {
       {/* Content Section */}
       <div className="about-content">  
         <h2>About Us</h2>  
-        <h1>Welcome to EduBin</h1>  
+        <h1>Welcome to Edu Afrika</h1>  
         <div className="content-section">  
           <p>  
-            At EduBin, we believe that education is the key to empowerment and growth. 
+            At Edu Afrika, we believe that education is the key to empowerment and growth. 
             Our mission is to provide quality educational opportunities and resources to individuals across the continent, laying the groundwork for a brighter and more sustainable future.
 
             Whether you are a student eager to learn, an educator passionate about teaching, 
@@ -27,6 +27,7 @@ const AboutPage = () => {
 
             Join us as we embark on this transformative journey together—because when we educate, we elevate!
           </p>  
+
           <img   
             src={AboutImage}    
             alt="Content Illustration"   

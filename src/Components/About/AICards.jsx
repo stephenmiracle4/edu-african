@@ -25,11 +25,11 @@ const AICards = () => {
   ]);
 
   // State to track expanded content for each card
-  const [expandedCard, setExpandedCard] = useState(null);
+  const [expandedCard, setExpandedCard] = useState(false);
 
   // Toggle the expanded state of the card's content
   const toggleExpand = (id) => {
-    setExpandedCard(expandedCard === id ? null : id);
+    setExpandedCard(expandedCard === id ? false : id);
   };
 
   // Data for stats section

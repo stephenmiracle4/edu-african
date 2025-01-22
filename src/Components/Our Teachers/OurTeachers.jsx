@@ -83,7 +83,7 @@ const OurTeachers = () => {
         {/* Header Section */}
         <div className="max-w-xl mb-12">
           <h2 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
-            Meet Our Teachers
+            Meet Our Teachers!
           </h2>
           <p className="mt-6 text-lg text-gray-600">
           'We are a passionate and dynamic team, dedicated to inspiring and empowering our students. With a shared commitment to excellence, we strive to deliver exceptional results and foster a supportive learning environment.''
