@@ -24,9 +24,10 @@ const Nav = () => {
                 {menuLinks.map((link, index) => {
                     <a 
                     key={index}
-                    href={link.href}>
+                    href={link.href}
+                    >
                     {link.name}
-                    className="text-dark-blue-700 hove:text-blue-600"
+                    
                     </a>
                 })}
                 </div>
