@@ -49,9 +49,7 @@ const AICards = () => {
             <h1 className="info-number">{`0${card.id}`}</h1>
             <h2>{card.title}</h2>
             <p>
-              {expandedCard === card.id
-                ? card.content 
-                : `${card.content.substring(0, 100)}...`} 
+              {expandedCard === card.id ? card.content : `${card.content.substring(0, 100)}...`} 
             </p>
             <button onClick={() => toggleExpand(card.id)}>
               {expandedCard === card.id ? "See Less" : "See More"}

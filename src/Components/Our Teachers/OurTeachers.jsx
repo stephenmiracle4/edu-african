@@ -86,7 +86,7 @@ const OurTeachers = () => {
             Meet Our Teachers!
           </h2>
           <p className="mt-6 text-lg text-gray-600">
-          'We are a passionate and dynamic team, dedicated to inspiring and empowering our students. With a shared commitment to excellence, we strive to deliver exceptional results and foster a supportive learning environment.''
+          We are a passionate and dynamic team, dedicated to inspiring and empowering our students. With a shared commitment to excellence, we strive to deliver exceptional results and foster a supportive learning environment.
           </p>
         </div>
 
