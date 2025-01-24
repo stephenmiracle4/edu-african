@@ -25,7 +25,10 @@ const HeroSection = () => {
     const interval = setInterval(() =>{
       setCurrentSlide((prev) => (prev + 1) % slide.length)
     }, 5000)
-  })
+
+    return () => clearInterval(interval);
+  }, [slide.length])
+
   return (
     <div className="relative h-screen overflow-hidden">
       {/* Slides */}
@@ -36,7 +39,7 @@ const HeroSection = () => {
             index === currentSlide ? 'opacity-100' : 'opacity-0'
           }`}
           style={{
-            backgroundImage: 'url(${slide.image})',
+            backgroundImage: `url(${slide.image})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
