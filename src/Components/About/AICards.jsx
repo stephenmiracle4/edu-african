@@ -8,7 +8,7 @@ const AICards = () => {
       id: 1,
       title: "Why Choose Us?",
       content:
-        "At EduBin, we’re dedicated to delivering quality, culturally relevant education tailored to Africa’s unique needs. With years of expertise, a student-centered approach, and innovative learning solutions, we make education accessible, inclusive, and impactful. By choosing us, you’re not just investing in your future, you’re contributing to Africa’s growth and transformation. Let’s build a brighter tomorrow together!",
+        "At Education Africa, we’re dedicated to delivering quality, culturally relevant education tailored to Africa’s unique needs. With years of expertise, a student-centered approach, and innovative learning solutions, we make education accessible, inclusive, and impactful. By choosing us, you’re not just investing in your future, you’re contributing to Africa’s growth and transformation. Let’s build a brighter tomorrow together!",
     },
     {
       id: 2,

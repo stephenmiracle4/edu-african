@@ -3,8 +3,7 @@ import './App.css';
 import AboutPage from './Components/About/About';
 import Teachers from './Components/Teachers/Teachers';
 
-function App() {  
-  // const [count, setCount] = useState(0)  
+function App() {    
 
   return (  
     <>  

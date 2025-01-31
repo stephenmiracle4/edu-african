@@ -44,7 +44,7 @@ const products = [
   },
   {
     id: 5,
-    name: 'Henry Benjamin',
+    name: 'Henry Ajah',
     title: 'Professor',
     href: '#',
     imageSrc: T5,
